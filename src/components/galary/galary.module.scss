@@ -1,0 +1,19 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.gridList {
+    width: 80%;
+}
+
+.btnLoad {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

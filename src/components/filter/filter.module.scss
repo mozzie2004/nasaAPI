@@ -1,0 +1,27 @@
+.root {
+    padding-top: 100px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+.sol {
+    max-width: 105px;
+}
+
+@media(max-width: 576px) {
+    .form {
+        flex-direction: column;
+        width: 90%;
+        height: 250px;
+    }
+
+    .sol {
+        max-width: unset;
+    }
+}
